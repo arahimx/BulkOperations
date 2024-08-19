@@ -1,6 +1,6 @@
 # BulkOperations.Package
 
-[![NuGet Version](https://www.nuget.org/packages/BulkOperations.Package/1.0.0)](https://www.nuget.org/packages/BulkOperations.Package/1.0.0)
+[![NuGet Version](https://img.shields.io/nuget/v/BulkOperations.Extensions.svg?style=flat)](https://www.nuget.org/packages/BulkOperations.Package/1.0.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
