@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BulkOperations
 {
-    public static class BulkExtensions
+    public static class BulkPackage
     {
         public static BulkOperationResult BulkInsert<T>(this DbContext context, IEnumerable<T> entities) where T : class
         {
