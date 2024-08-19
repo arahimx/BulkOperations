@@ -5,17 +5,22 @@
 
 ## Overview
 
-**BulkOperations.Extensions** is a lightweight and efficient library for performing bulk insert, update, and delete operations using Entity Framework Core. It simplifies batch processing for large datasets, improving the performance and scalability of your applications.
-
-## Features
-
-- **Bulk Insert**: Efficiently insert large collections of entities.
-- **Bulk Update**: Update multiple entities in a single operation.
-- **Bulk Delete**: Remove multiple entities with minimal overhead.
+**BulkOperations.Extensions** is a lightweight and efficient library designed to simplify bulk operations like insert, update, and delete for large datasets using Entity Framework Core. This extension reduces the overhead associated with these operations, making your applications more performant and scalable.
 
 ## Installation
 
-You can install the **BulkOperations.Extensions** library via NuGet:
+### Via NuGet Package Manager
+
+You can install the **BulkOperations.Extensions** package using the NuGet Package Manager in Visual Studio:
+
+1. Open your project in Visual Studio.
+2. Right-click on the project in the Solution Explorer and select "Manage NuGet Packages..."
+3. Search for `BulkOperations.Extensions` in the Browse tab.
+4. Click "Install" to add the package to your project.
+
+### Via .NET CLI
+
+Alternatively, you can install the package via the .NET CLI:
 
 ```bash
 dotnet add package BulkOperations.Extensions
