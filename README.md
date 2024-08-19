@@ -15,7 +15,7 @@ You can install the **BulkOperations.Package** package using the NuGet Package M
 
 1. Open your project in Visual Studio.
 2. Right-click on the project in the Solution Explorer and select "Manage NuGet Packages..."
-3. Search for `BulkOperations.Extensions` in the Browse tab.
+3. Search for `BulkOperations.Package` in the Browse tab.
 4. Click "Install" to add the package to your project.
 
 ### Via .NET CLI
