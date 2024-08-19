@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<!-- Target framework version -->
+		<TargetFramework>net8.0</TargetFramework>
+
+		<!-- Enable implicit using directives -->
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<!-- Enable nullable reference types -->
+		<Nullable>enable</Nullable>
+
+		<!-- Generate the NuGet package on build -->
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+		<!-- NuGet package metadata -->
+		<PackageId>BulkOperations.Extensions</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>YourName</Authors>
+		<Company>YourCompany</Company>
+		<Description>A professional and efficient library for performing bulk insert, update, and delete operations using Entity Framework Core.</Description>
+		<PackageTags>Bulk;EFCore;EntityFramework;Extensions;Database</PackageTags>
+		<PackageProjectUrl>https://github.com/arahimx/BulkOperations.Extensions</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/arahimx/BulkOperations.Extensions</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageIconUrl>https://example.com/icon.png</PackageIconUrl>
+		<!-- Replace with your actual icon URL -->
+		<PackageReleaseNotes>Initial release of BulkOperations.Extensions with support for bulk insert, update, and delete operations.</PackageReleaseNotes>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- Package dependencies -->
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+	</ItemGroup>
+
+</Project>
