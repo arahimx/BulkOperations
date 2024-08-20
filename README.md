@@ -5,7 +5,7 @@
 
 ## Overview
 
-**BulkOperations.Package** is a lightweight and efficient library designed to simplify bulk operations such as insert, update, and delete for large datasets using Entity Framework Core. This package reduces the overhead associated with these operations, enhancing the performance and scalability of your applications.
+**BulkOperations.Package** is a lightweight and efficient library designed to simplify bulk operations such as insert, update, and delete for large datasets using Entity Framework Core. This package helps reduce the overhead associated with these operations, enhancing the performance and scalability of your applications.
 
 ## Requirements
 
@@ -16,7 +16,7 @@
 
 ### Via NuGet Package Manager
 
-To install the **BulkOperations.Package** using the NuGet Package Manager in Visual Studio:
+To install **BulkOperations.Package** using the NuGet Package Manager in Visual Studio:
 
 1. Open your project in Visual Studio.
 2. Right-click on the project in the Solution Explorer and select **"Manage NuGet Packages..."**.
@@ -28,8 +28,7 @@ To install the **BulkOperations.Package** using the NuGet Package Manager in Vis
 
 To install the package via the .NET CLI, run the following command:
 
-```bash
-dotnet add package BulkOperations.Package
+`dotnet add package BulkOperations.Package`
 
 ## GitHub Repository
 
@@ -39,5 +38,5 @@ If you want to clone the GitHub repository for **BulkOperations.Package** and co
 
 2. Run the following command to clone the repository:
 
-   ```bash
-   git clone https://github.com/yourusername/BulkOperations.Package.git
+   `git clone https://github.com/arahimx/BulkOperations.Package.git`
+
