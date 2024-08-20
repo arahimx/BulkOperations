@@ -31,7 +31,6 @@ To install the package via the .NET CLI, run the following command:
 ```bash
 dotnet add package BulkOperations.Package
 
-
 ## GitHub Repository
 
 If you want to clone the GitHub repository for **BulkOperations.Package** and contribute or explore further:
